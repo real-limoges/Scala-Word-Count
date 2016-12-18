@@ -9,10 +9,15 @@ File Structure
 In Python, file structure doesn't matter as strongly as it does in Scala I found out. According to the Spark documentation, my jobs should be written with roughly this structure:
 
 .
+
 ./simple.sbt
+
 ./src
+
 ./src/main
+
 ./src/main/scala
+
 ./src/main/scala/X.scala
 
 This is a bit strange but I love the forced organization. Scala as a language is a bit freer than Python is - I miss the structure of the "correct" way to do things. So this is a nice development!
