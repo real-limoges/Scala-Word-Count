@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf
 
 object WordCount{
   def main(args: Array[String]) {
-    val logFile = "/Users/reallimoges/Downloads/spark-2.0.2-bin-hadoop2.7/README.md"
+    val logFile = "/Users/real/projects/Scala-Word-Count/README.md"
     
     val conf = new SparkConf().setAppName("word count")
     val sc = new SparkContext(conf)
